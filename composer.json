@@ -1,0 +1,20 @@
+{
+	"name" : "fgsl/mock",
+	"description" : "Mock module for ZF3 apps",
+	"type" : "library",
+	"keywords" : [
+		"mock",
+		"module",
+		"zend"
+	],
+	"homepage" : "https://github.com/fgsl/mock",
+	"license" : "AGPL-3.0-or-later",
+	"autoload" : {
+		"psr-4" : {
+			"Fgsl\\Mock\\" : "Mock/src"
+		}
+	},
+	"require" : {
+		"php" : ">=7.0"
+	}
+}
