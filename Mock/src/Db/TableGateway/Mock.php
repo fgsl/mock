@@ -1,6 +1,7 @@
 <?php
 namespace Fgsl\Mock\Db\TableGateway;
 use Zend\Db\TableGateway\TableGatewayInterface;
+use Zend\Db\Sql\Select;
 use Fgsl\Mock\Db\Result\Mock as MockResult;
 /**
  * @author    Flávio Gomes da Silva Lisboa <flavio.lisboa@fgsl.eti.br> 
@@ -42,5 +43,13 @@ class Mock implements TableGatewayInterface
 	public function delete($where)
 	{
 		return 1;
+	}
+	
+	public function selectWith(Select $select)
+	{		
+		$collection = new \ArrayObject();
+		$row = (object) ['total'=>1];
+		$collection->append($row);
+		return $collection->getIterator();
 	}
 }
