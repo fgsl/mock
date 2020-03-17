@@ -2,9 +2,9 @@
 namespace Fgsl\Mock\Db\Adapter;
 use Interop\Container\ContainerInterface;
 use Interop\Container\Exception\ContainerException;
-use Zend\ServiceManager\Exception\ServiceNotCreatedException;
-use Zend\ServiceManager\Exception\ServiceNotFoundException;
-use Zend\ServiceManager\Factory\FactoryInterface;
+use Laminas\ServiceManager\Exception\ServiceNotCreatedException;
+use Laminas\ServiceManager\Exception\ServiceNotFoundException;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 /**
  * @author    Flávio Gomes da Silva Lisboa <flavio.lisboa@fgsl.eti.br> 
  * @link      http://github.com/fgsl/econference for the canonical source repository

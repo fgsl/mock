@@ -1,11 +1,11 @@
 {
 	"name" : "fgsl/mock",
-	"description" : "Mock module for ZF3 apps",
+	"description" : "Mock module for Laminas apps",
 	"type" : "library",
 	"keywords" : [
 		"mock",
 		"module",
-		"zend"
+		"laminas"
 	],
 	"homepage" : "https://github.com/fgsl/mock",
 	"license" : "AGPL-3.0-or-later",
@@ -15,6 +15,11 @@
 		}
 	},
 	"require" : {
-		"php" : ">=7.0"
+		"php" : ">=7.0",
+		"laminas/laminas-db": "^2.11",
+		"laminas/laminas-servicemanager": "^3.4"
+	},
+	"config" : {
+		"secure-http" : false
 	}
 }

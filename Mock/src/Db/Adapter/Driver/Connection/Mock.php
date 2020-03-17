@@ -1,6 +1,6 @@
 <?php
 namespace Fgsl\Mock\Db\Adapter\Driver\Connection;
-use Zend\Db\Adapter\Driver\AbstractConnection;
+use Laminas\Db\Adapter\Driver\AbstractConnection;
 use Fgsl\Mock\Db\Result\Mock as MockResult;
 /**
  * @author    Flávio Gomes da Silva Lisboa <flavio.lisboa@fgsl.eti.br> 

@@ -1,6 +1,6 @@
 <?php
 namespace Fgsl\Mock\Db\Result;
-use Zend\Db\Adapter\Driver\ResultInterface;
+use Laminas\Db\Adapter\Driver\ResultInterface;
 /**
  * @author    Flávio Gomes da Silva Lisboa <flavio.lisboa@fgsl.eti.br> 
  * @link      http://github.com/fgsl/econference for the canonical source repository

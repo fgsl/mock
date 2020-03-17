@@ -1,8 +1,8 @@
 <?php
 namespace Fgsl\Mock\Db\Adapter;
-use Zend\Db\Adapter\AdapterInterface;
-use Zend\Db\Adapter\Driver\DriverInterface;
-use Zend\Db\Adapter\Platform\PlatformInterface;
+use Laminas\Db\Adapter\AdapterInterface;
+use Laminas\Db\Adapter\Driver\DriverInterface;
+use Laminas\Db\Adapter\Platform\PlatformInterface;
 use Fgsl\Mock\Db\Adapter\Driver\Mock as MockDriver;
 use Fgsl\Mock\Db\Platform\Mock as MockPlatform;
 /**

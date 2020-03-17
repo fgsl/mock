@@ -1,9 +1,9 @@
 <?php
 namespace Fgsl\Mock\Db\Adapter\Driver;
-use Zend\Db\Adapter\Driver\ConnectionInterface;
-use Zend\Db\Adapter\Driver\DriverInterface;
-use Zend\Db\Adapter\Driver\ResultInterface;
-use Zend\Db\Adapter\Driver\StatementInterface;
+use Laminas\Db\Adapter\Driver\ConnectionInterface;
+use Laminas\Db\Adapter\Driver\DriverInterface;
+use Laminas\Db\Adapter\Driver\ResultInterface;
+use Laminas\Db\Adapter\Driver\StatementInterface;
 use Fgsl\Mock\Db\Adapter\Driver\Connection\Mock as MockConnection;
 use Fgsl\Mock\Db\Adapter\Driver\Statement\Mock as MockStatement;
 /**

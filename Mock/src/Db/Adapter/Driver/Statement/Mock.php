@@ -1,9 +1,9 @@
 <?php
 namespace Fgsl\Mock\Db\Adapter\Driver\Statement;
-use Zend\Db\Adapter\Driver\ResultInterface;
-use Zend\Db\Adapter\Driver\StatementInterface;
+use Laminas\Db\Adapter\Driver\ResultInterface;
+use Laminas\Db\Adapter\Driver\StatementInterface;
 use Fgsl\Mock\Db\Result\Mock as MockResult;
-use Zend\Db\Adapter\ParameterContainer;
+use Laminas\Db\Adapter\ParameterContainer;
 /**
  * @author    Flávio Gomes da Silva Lisboa <flavio.lisboa@fgsl.eti.br> 
  * @link      http://github.com/fgsl/econference for the canonical source repository

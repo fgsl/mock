@@ -1,6 +1,6 @@
 <?php
 namespace Fgsl\Mock\Db\Platform;
-use Zend\Db\Adapter\Platform\PlatformInterface;
+use Laminas\Db\Adapter\Platform\PlatformInterface;
 /**
  * @author    Flávio Gomes da Silva Lisboa <flavio.lisboa@fgsl.eti.br> 
  * @link      http://github.com/fgsl/econference for the canonical source repository

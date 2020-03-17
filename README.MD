@@ -1,4 +1,4 @@
-# Mock library for unit tests using Zend\Db component in Zend Framework 3 application
+# Mock library for unit tests using Laminas\Db component in Laminas application
 
 ## How to install
 
@@ -74,7 +74,7 @@ Use this file instead global.php (add or merge your specific settings):
 return [
     'service_manager' => [
         'factories' => [
-            'Zend\Db\Adapter' => 'Fgsl\Mock\Db\Adapter\AdapterServiceFactory'
+            'Laminas\Db\Adapter' => 'Fgsl\Mock\Db\Adapter\AdapterServiceFactory'
         ]
     ]
 ];

@@ -1,7 +1,7 @@
 <?php
 namespace Fgsl\Mock\Db\TableGateway;
-use Zend\Db\TableGateway\TableGatewayInterface;
-use Zend\Db\Sql\Select;
+use Laminas\Db\TableGateway\TableGatewayInterface;
+use Laminas\Db\Sql\Select;
 use Fgsl\Mock\Db\Result\Mock as MockResult;
 /**
  * @author    Flávio Gomes da Silva Lisboa <flavio.lisboa@fgsl.eti.br>
@@ -68,7 +68,7 @@ class Mock implements TableGatewayInterface
     
     /**
      * @param Select $select
-     * @return Iterator
+     * @return \Iterator
      */
     public function selectWith(Select $select)
     {
