@@ -13,6 +13,11 @@ use Fgsl\Mock\Db\Platform\Mock as MockPlatform;
  */
 class Mock implements AdapterInterface
 {
+   public function __construct()
+   {
+       error_log('You are using a Mock Db Adapter!');
+   }
+
 	/**
 	 * @return DriverInterface
 	 */
