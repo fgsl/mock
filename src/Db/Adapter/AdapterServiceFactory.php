@@ -11,7 +11,7 @@ use Psr\Container\ContainerInterface;
  */
 class AdapterServiceFactory implements FactoryInterface
 {
-	public function __invoke(ContainerInterface $container, string $requestedName, ?array $options = null): mixed
+	public function __invoke(ContainerInterface $container, $requestedName, ?array $options = null)
 	{
 	   return new Mock();
 	}
