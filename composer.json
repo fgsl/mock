@@ -11,15 +11,18 @@
 	"license" : "AGPL-3.0-or-later",
 	"autoload" : {
 		"psr-4" : {
-			"Fgsl\\Mock\\" : "Mock/src"
+			"Fgsl\\Mock\\" : "src"
 		}
 	},
 	"require" : {
-		"php" : ">=7.0",
-		"laminas/laminas-db": "^2.11",
-		"laminas/laminas-servicemanager": "^3.4"
+		"php" : ">=8.2",
+		"laminas/laminas-db": "^2.20",
+		"laminas/laminas-servicemanager": "^4.4"
 	},
 	"config" : {
 		"secure-http" : false
+	},
+	"require-dev": {
+		"phpunit/phpunit": "10.5"
 	}
 }

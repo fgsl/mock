@@ -18,18 +18,12 @@ class Mock implements AdapterInterface
        error_log('You are using a Mock Db Adapter!');
    }
 
-	/**
-	 * @return DriverInterface
-	 */
-	public function getDriver()
+	public function getDriver(): DriverInterface
 	{
 		return new MockDriver();
 	}
 	
-	/**
-	 * @return PlatformInterface
-	*/
-	public function getPlatform()
+	public function getPlatform(): PlatformInterface
 	{
 	   return new MockPlatform();
 	}
