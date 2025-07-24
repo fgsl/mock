@@ -17,7 +17,7 @@
 	"require" : {
 		"php" : ">=8.2",
 		"laminas/laminas-db": "^2.20",
-		"laminas/laminas-servicemanager": "^4.4"
+		"laminas/laminas-servicemanager": "^3"
 	},
 	"config" : {
 		"secure-http" : false
