@@ -56,7 +56,7 @@ return [
 ];
 ```
 
-Use this file instead global.php (add or merge your specific settings):
+Use this file instead global.php (add or merge your specific settings) - it is the `mock.php` in the previous file:
 
 ```php
 <?php
